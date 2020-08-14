@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <body>
+        <h1 id="string"></h1>
+        <h1 id="array"></h1>
+        <button onclick='stringTest()'>See String</button>
+        <button onclick="arrayTest()">Show Laptops</button>
+        <script>
+    function stringTest() {
+        var myString1 = "5";
+        var myString2 = "5";
+        var myString3 = myString1 + myString2;
+    document.getElementById("string").innerHTML = myString3;
+    }
+    function arrayTest(){
+        var laptops =["dell","mac","hp","lenovo"];
+    document.getElementById("array").innerHTML = "This laptop is " + laptops[0];
+    }
+        </script>
+    </body>
+</html>
